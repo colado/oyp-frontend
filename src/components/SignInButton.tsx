@@ -1,8 +1,8 @@
-// TODO: Cleanup, use css
+// TODO: Replace with reusable button after installing UI library
 export default function SignInButton() {
   const handleSignIn = () => {
-    // Redirect to the backend's login route (where OAuth starts)
-    window.location.href = "http://localhost:3000/spotify/login"; // Update this with your backend's login URL
+    // TODO: Replace with proper path, move to consts
+    window.location.href = "http://localhost:3000/spotify/login";
   };
 
   return (

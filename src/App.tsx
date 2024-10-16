@@ -1,8 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import SignInButton from "./components/SignInButton";
-import SignInSuccess from "./components/SignInSuccess";
+import Login from "./pages/Login";
+import Home from "./pages/Home";
 
-// TODO: Cleanup, fix styles
 function App() {
   return (
     <div
@@ -16,8 +15,8 @@ function App() {
     >
       <Router>
         <Routes>
-          <Route path="/" element={<SignInButton />} />
-          <Route path="/success" element={<SignInSuccess />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </Router>
     </div>
