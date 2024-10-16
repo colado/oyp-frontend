@@ -1,3 +1,3 @@
-# Own Your Playlist - Frontend
+# Own Your Playlists - Frontend
 
 WIP

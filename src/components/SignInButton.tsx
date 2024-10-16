@@ -2,7 +2,7 @@
 export default function SignInButton() {
   const handleSignIn = () => {
     // Redirect to the backend's login route (where OAuth starts)
-    window.location.href = "http://localhost:3000/login"; // Update this with your backend's login URL
+    window.location.href = "http://localhost:3000/spotify/login"; // Update this with your backend's login URL
   };
 
   return (
